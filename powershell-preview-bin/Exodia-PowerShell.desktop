@@ -2,7 +2,7 @@
 Type=Application
 Name=PowerShell
 Comment= A PowerShell preview bin
-Exec=alacritty -e pwsh-preview
+Exec=alacritty --config-file ~/.config/bspwm/alacritty/alacritty.yml -e pwsh-preview
 Icon=Exodia-PowerShell
 Terminal=false
 Categories=System;TerminalEmulator
