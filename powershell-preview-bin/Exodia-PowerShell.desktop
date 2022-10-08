@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PowerShell
+Comment= A PowerShell preview bin
+Exec=alacritty -e pwsh-preview
+Icon=Exodia-PowerShell
+Terminal=false
+Categories=System;TerminalEmulator
