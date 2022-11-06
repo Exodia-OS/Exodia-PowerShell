@@ -1,12 +1,12 @@
 #
-# Maintainer: Mahmoud Mohamed (Ozil) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
 pkgname=powershell-preview-bin
 _pkgver=7.3.0-preview.5
 _version=7-preview
 pkgver=${_pkgver/-/.}
-pkgrel=5
+pkgrel=6
 pkgdesc='A cross-platform automation and configuration tool/framework (binary preview package)'
 arch=('x86_64')
 url='https://github.com/Powershell/Powershell'
@@ -20,7 +20,8 @@ source=("https://github.com/PowerShell/PowerShell/releases/download/v${_pkgver}/
         "bsp-powershell"
         )
 
-sha256sums=('C6294B5E3F4CCD0BE66FBBAA85C712A6E8EA40B6B1EF21B2C0FA75665B2A2BBD'
+sha256sums=(
+            'SKIP'
             'SKIP'
             'SKIP'
             'SKIP'

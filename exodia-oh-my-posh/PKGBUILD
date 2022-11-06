@@ -1,10 +1,10 @@
 #
-# Maintainer: Mahmoud Mohamed (Ozil) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
 pkgname=exodia-oh-my-posh
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="oh-my-posh for Exodia OS powershell-preview-bin"
 url="https://github.com/Exodia-OS/Exodia-PowerShell"
 arch=('any')
