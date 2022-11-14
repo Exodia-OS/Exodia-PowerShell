@@ -4,7 +4,7 @@
 
 pkgname=exodia-oh-my-posh
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="oh-my-posh for Exodia OS powershell-preview-bin"
 url="https://github.com/Exodia-OS/Exodia-PowerShell"
 arch=('any')
@@ -14,6 +14,7 @@ depends=('powershell-preview-bin')
 conflicts=()
 provides=("${pkgname}")
 options=(!strip !emptydirs)
+install=${pkgname}.install
 
 prepare() {
 
