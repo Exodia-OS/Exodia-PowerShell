@@ -6,15 +6,27 @@ pkgname=powershell-preview-bin
 _pkgver=7.3.0-preview.5
 _version=7-preview
 pkgver=${_pkgver/-/.}
-pkgrel=6
+pkgrel=7
 pkgdesc='A cross-platform automation and configuration tool/framework (binary preview package)'
-arch=('x86_64')
+arch=('any')
 url='https://github.com/Powershell/Powershell'
-depends=('krb5' 'gcc-libs' 'glibc' 'lttng-ust' 'zlib' 'openssl' 'icu')
+
+depends=(
+          'krb5' 
+          'gcc-libs' 
+          'glibc' 
+          'lttng-ust' 
+          'zlib' 
+          'openssl' 
+          'icu'
+        )
+
 provides=('powershell')
 options=(staticlibs !strip)
 install=powershell-preview.install
-source=("https://github.com/PowerShell/PowerShell/releases/download/v${_pkgver}/powershell-preview_${_pkgver}-1.deb_amd64.deb"
+
+source=(
+        "https://github.com/PowerShell/PowerShell/releases/download/v${_pkgver}/powershell-preview_${_pkgver}-1.deb_amd64.deb"
         "Exodia-PowerShell.desktop"
         "Exodia-PowerShell.svg"
         "bsp-powershell"

@@ -22,4 +22,4 @@
 
 CONFIG="$HOME/.config/bspwm/alacritty/alacritty.yml"
 
-alacritty --config-file "$CONFIG" -e pwsh-preview
+alacritty --class 'alacritty-float,alacritty-float' --config-file "$CONFIG" -e pwsh-preview
