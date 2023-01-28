@@ -6,7 +6,7 @@ pkgname=powershell-preview-bin
 _pkgver=7.3.0-preview.5
 _version=7-preview
 pkgver=${_pkgver/-/.}
-pkgrel=7
+pkgrel=8
 pkgdesc='A cross-platform automation and configuration tool/framework (binary preview package)'
 arch=('any')
 url='https://github.com/Powershell/Powershell'
@@ -38,6 +38,8 @@ sha256sums=(
             'SKIP'
             'SKIP'
             )
+
+groups=("exodia-skeleton")
 
 package() {  
 
