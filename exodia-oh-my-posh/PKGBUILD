@@ -4,7 +4,7 @@
 
 pkgname=exodia-oh-my-posh
 pkgver=1.0
-pkgrel=5
+pkgrel=6
 pkgdesc="oh-my-posh for Exodia OS powershell-preview-bin"
 url="https://github.com/Exodia-OS/Exodia-PowerShell"
 arch=('any')
